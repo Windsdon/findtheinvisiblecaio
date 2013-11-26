@@ -1,1 +1,29 @@
-A site is comming...
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find the Invisible Caio</title>
+    <meta http-equiv="Content-type" content="text/html; charset=iso-8859-1"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="caio.js"></script>
+</head>
+<body>
+<div class="container"></div>
+<div class="dialog newGame"><h1>Find the Invisible Caio</h1><br>Mova o cursor para encontrar o Caio. Ele está escondido
+    atrás dos gritos.<br>Tenha certeza de que seu som está ligado<br>
+
+    <div class="button" id="newGameButton">Começar jogo</div>
+</div>
+<div class="dialog endGame"><h1>Parabéns</h1>Você encontrou o Caio invivível!<br>
+    <div class="button" id="endGameButton">Jogar denovo</div>
+</div>
+<img src="caio.png" class="caio">
+<audio class="sound" id="c1" src="sounds/c6.wav" preload="auto" loop></audio>
+<audio class="sound" id="c2" src="sounds/c5.wav" preload="auto" loop></audio>
+<audio class="sound" id="c3" src="sounds/c4.wav" preload="auto" loop></audio>
+<audio class="sound" id="c4" src="sounds/c3.wav" preload="auto" loop></audio>
+<audio class="sound" id="c5" src="sounds/c2.wav" preload="auto" loop></audio>
+<audio class="sound" id="c6" src="sounds/c1.wav" preload="auto" loop></audio>
+</body>
+</html>

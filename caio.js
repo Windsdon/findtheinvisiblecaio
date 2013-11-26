@@ -6,9 +6,9 @@
 
 function Caio(){
     this.margin = 50;
-    this.triggerDistance = 5;
+    this.triggerDistance = 20;
 
-    this.levels = [this.triggerDistance, 20, 100, 250, 500, 600];
+    this.levels = [this.triggerDistance, 40, 100, 250, 500, 600];
     this.sounds = $(".sound");
 
     this.image = $(".caio");
